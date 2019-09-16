@@ -1,0 +1,73 @@
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+/**************
+     BANNER 
+**************/
+
+.banner {
+    height: 400px;
+    background-image: url("https://cdn.tigerfacilityservices.com/img/bg_header_quality@2x.jpg");
+    background-size: cover;
+}
+
+.banner-title {
+    background: #1086c1;
+    display: table;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+}
+.banner-text {
+    background-color: rgba(1,70,146,.8);
+}
+
+.f-bann-title {
+    font-size: 1.2rem!important;
+    font-weight: 200;
+}
+
+.f-bann-text {
+    font-size: 1.9rem;
+    font-weight: 300;
+}
+
+.banner-vertical {
+    top: 150px;
+}
+
+.qualitat-cards h6 {
+    font-weight: 400!important;
+}
+
+.nav-fonts a {
+    font-weight: 400!important;
+    font-size: 15px;
+}
+
+.nav-fonts li {
+    margin: 0 10px;
+}
+
+.f-bann-title li {
+    font-size: 1rem!important;
+    margin: 5px 0;
+    font-weight: 300;
+}
+
+.btn-header {
+    background-color: #ffcd00;
+    font-size: 0.9rem;
+    border-radius: .38462rem;
+    letter-spacing: 0.5px;
+    font-weight: 300px;
+}
+
+.btn-header:hover {
+    background-color: #f2c300;
+}
+
+.footer-text, footer a {
+    color:#b5b5b5!important;
+}
