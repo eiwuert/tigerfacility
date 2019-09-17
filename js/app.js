@@ -9,5 +9,11 @@ app.config(function($routeProvider,$locationProvider) {
         .when("/qualitaet", {
             templateUrl : "pages/qualitaet.html"
         })
+        .when("/uber-uns", {
+            templateUrl : "pages/uber-uns.html"
+        })
+        .when("/vorteile", {
+            templateUrl : "pages/vorteile.html"
+        })
     .otherwise({ redirectTo: '/' });
 });
