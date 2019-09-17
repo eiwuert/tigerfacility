@@ -11,6 +11,18 @@ body {
     background-image: url("https://cdn.tigerfacilityservices.com/img/bg_header_quality@2x.jpg");
     background-size: cover;
 }
+.banner2 {
+    height: 500px;
+    background-image:url("https://cdn.tigerfacilityservices.com/img/tfs_homepage_bg@2x.jpg");
+    background-size: cover;
+}
+.banner-3 {
+    height: 350px;    
+    background-image: url(https://cdn.tigerfacilityservices.com/img/partners_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+}
 
 .banner-title {
     background: #1086c1;
@@ -33,13 +45,18 @@ body {
     font-weight: 300;
 }
 
-.banner-vertical {
-    top: 150px;
-}
-
-.qualitat-cards h6 {
+h6 {
     font-weight: 400!important;
 }
+
+.banner-card {
+    height:100%!important;
+}
+
+/**************
+  NAVIGATION 
+**************/
+
 
 .nav-fonts a {
     font-weight: 400!important;
@@ -63,11 +80,112 @@ body {
     letter-spacing: 0.5px;
     font-weight: 300px;
 }
+.btn-header2{
+    background-color: white;
+    border: 1px solid #e8e8e8;
+    font-size: 0.9rem;
+    border-radius: .38462rem;
+    letter-spacing: 0.5px;
+    font-weight: 300px;
+}
 
 .btn-header:hover {
     background-color: #f2c300;
 }
+.btn-header2:hover {
+    background-color: #fafafa;
+}
 
 .footer-text, footer a {
     color:#b5b5b5!important;
+}
+
+/* MAIN */
+
+.baby-blue {
+    background-color: #ebf1fa!important;
+}
+
+.link-card:hover {
+    background-color: #ffcd00!important;
+}
+
+.link-card {
+    cursor: pointer;
+}
+
+.fifth {
+    width: 20%;
+}
+
+.fifth-card {
+    cursor: pointer;
+}
+
+.fifth-card:hover {
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.11)!important;
+    transition: box-shadow .5s;
+}
+
+.services-top {
+    top:-100px;
+}
+
+.tab-link h5, .tab-link h6{
+    color: #000!important;
+}
+.tab-link {
+    background-color: #ebf1fa!important;
+}
+
+.tab-link.active h5, .tab-link.active h6{
+    color: #fff!important;
+}
+
+.tab-link.active {
+    background-color: #014692!important;
+}
+
+.nav-item {
+    cursor: pointer;
+}
+
+.bubble-speech {
+    top: -50px;
+    width: 120%!important;
+    background-color: #ffcd00;
+    position: relative;
+    z-index: 1;
+}
+
+.bubble-speech::after {
+    content: "";
+    position: absolute;
+    bottom: -2rem;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-right: 2rem solid #ffcd00;
+    border-left: 2rem solid transparent;
+    border-top: 2rem solid transparent;
+    border-bottom: 2rem solid transparent;
+}
+
+.picture-left {
+    left: -20px;
+}
+
+.w-20 {
+    width: 20%!important;
+}
+
+.letter-space-1 {
+    letter-spacing: 1px;
+}
+
+.line-height-150 {
+    line-height: 150%;
+}
+.font-weight-300 {
+    font-weight: 500!important;
 }
