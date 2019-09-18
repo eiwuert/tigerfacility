@@ -448,3 +448,71 @@ h6 {
 .book-footer {
     background-color: #014692;
 }
+
+/* CO-WORKING */
+
+.bg-calendar {
+    justify-content: flex-end;
+    background-image: url("https://assets.website-files.com/5b2cd3a595f0a02fa2ec893c/5c863a52af626214c7134822_bg_calendar.svg");
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+.img-corner {
+    position: absolute;
+    right: -40px;
+    top: -30px;
+}
+
+.fade {
+    margin: 50px;
+    padding: 50px;
+    background-color: white;
+    opacity: 1;
+}
+
+.big-blue {
+    background: #014692;
+}
+
+.graph1 {
+    background-image: url("https://assets.website-files.com/5b2cd3a595f0a02fa2ec893c/5c863fb28f09532b9bbfaca6_img_co-living_detailedrep_1.svg");
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: #ebf1fa;
+    height: 300px;
+}
+
+.graph2 {
+    background-image: url("https://assets.website-files.com/5b2cd3a595f0a02fa2ec893c/5c863fb29eacd16c2167a5f6_img_co-living_detailedrep_2.svg");
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: #ebf1fa;
+    height: 300px;
+}
+
+.graph3 {
+    background-image: url("https://assets.website-files.com/5b2cd3a595f0a02fa2ec893c/5c863fb39eacd1661067a5f7_img_co-living_detailedrep_3.svg");
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: #ebf1fa;
+    height: 300px;
+}
+
+.bg-quotes {
+    background-image: url("https://assets.website-files.com/5b2cd3a595f0a02fa2ec893c/5c389dee86916f59daf0785c_ic_quote_line_x4.svg");
+    background-position: 0px 0px;
+    background-size: 177px;
+    background-repeat: no-repeat;
+}
+
+.bg-quotes-tail {
+    background-image: url("https://assets.website-files.com/5b2cd3a595f0a02fa2ec893c/5c389d00c4f69ff6d5004484_bg_bubble_tail.svg");
+    background-position: 0px 11px;
+    background-size: 14px;
+    background-repeat: no-repeat;
+}

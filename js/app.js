@@ -54,6 +54,9 @@ app.config(function($routeProvider,$locationProvider) {
         .when("/e-book", {
             templateUrl : "pages/e-book.html"
         })
+        .when("/co-working", {
+            templateUrl : "pages/co-working.html"
+        })
     .otherwise({ redirectTo: '/' });
 });
 
