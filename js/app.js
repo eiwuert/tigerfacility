@@ -21,5 +21,32 @@ app.config(function($routeProvider,$locationProvider) {
         .when("/so-funktionierts", {
             templateUrl : "pages/so-funktionierts.html"
         })
+        .when("/startup", {
+            templateUrl : "pages/startup.html"
+        })
+        .when("/grossraumbuero", {
+            templateUrl : "pages/grossraumbuero.html"
+        })
+        .when("/kanzlei", {
+            templateUrl : "pages/kanzlei.html"
+        })
+        .when("/praxis", {
+            templateUrl : "pages/praxis.html"
+        })
+        .when("/zahnarztpraxis", {
+            templateUrl : "pages/zahnarztpraxis.html"
+        })
+        .when("/behandlungsraeume", {
+            templateUrl : "pages/behandlungsraeume.html"
+        })
+        .when("/cafe", {
+            templateUrl : "pages/cafe.html"
+        })
+        .when("/verkaufsflaechen", {
+            templateUrl : "pages/verkaufsflaechen.html"
+        })
+        .when("/oeffentliche-einrichtungen", {
+            templateUrl : "pages/oeffentliche-einrichtungen.html"
+        })
     .otherwise({ redirectTo: '/' });
 });

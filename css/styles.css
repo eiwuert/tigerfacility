@@ -16,6 +16,57 @@ body {
     background-image:url("https://cdn.tigerfacilityservices.com/img/tfs_homepage_bg@2x.jpg");
     background-size: cover;
 }
+.banner2b {
+    height: 500px;
+    background-image:url("https://images.ctfassets.net/tqo8jd3rivfi/1PDzDP85fq2A0Uya6mUceK/2ff70247d8615e8ee28699d4c6543338/doctorpraxis_header_2x.jpg");
+    background-size: cover;
+}
+.banner2c {
+    height: 500px;
+    background-image: url("//images.ctfassets.net/tqo8jd3rivfi/35nWogilfaCasi0I2Wysyq/8251499723e8ae211f4ae3698fec04f3/dentist_header_2x.jpg");
+    background-size: cover;
+}
+.banner2d {
+    height: 500px;
+    background-image: url("//images.ctfassets.net/tqo8jd3rivfi/3xGP7q6QdiQamySkwc8cQM/79742d143c0214d2c561f4f558a13784/physiotherapists_header_2x.jpg");
+    background-size: cover;
+}
+.banner2e {
+    height: 500px;
+    background-image: url("//images.ctfassets.net/tqo8jd3rivfi/5UMimVqKxGQS26YAs8gyUG/e9cc2706e3be45bc5bf1738ccd158843/cafe_header_2x.jpg");
+    background-size: cover;
+}
+.banner2f {
+    height: 500px;
+    background-image: url("//images.ctfassets.net/tqo8jd3rivfi/4yqsJa6YTCO0ImMEowgiG/2dd60e0c80502cd3060466e8edc1166b/store_header_2x.jpg");
+    background-size: cover;
+}
+.banner2g {
+    height: 500px;
+    background-image: url("//images.ctfassets.net/tqo8jd3rivfi/6bJJAm72dUEG0qyCmm4UEE/491f900626a4f7a9cc2afabe53a82875/publicspace_header_2x.jpg");
+    background-size: cover;
+}
+.banner2h {
+    height: 500px;
+    background-image: url("//images.ctfassets.net/tqo8jd3rivfi/6COH21LNe04YAEyiqqwUIw/b61c8e54aa01813e939018bf79705f87/startup_header_2x.jpg");
+    background-size: cover;
+}
+.banner2i {
+    height: 500px;
+    background-image: url("//images.ctfassets.net/tqo8jd3rivfi/4V1zL2LmZOQmkeow8KMSWk/7cbc45434f953143334a009831bfa57e/bigoffice_header_2x.jpg");
+    background-size: cover;
+}
+.banner2j {
+    height: 500px;
+    background-image: url("//images.ctfassets.net/tqo8jd3rivfi/5AyLbDEGyIUO0gaCsssacE/c90bf916e7f3fd2cc3e87500a59fab60/smalloffice_header_2x.jpg");
+    background-size: cover;
+}
+.banner2k {
+    height: 500px;
+    background-image: url("//images.ctfassets.net/tqo8jd3rivfi/3xGP7q6QdiQamySkwc8cQM/79742d143c0214d2c561f4f558a13784/physiotherapists_header_2x.jpg");
+    background-size: cover;
+}
+
 .banner-3 {
     height: 350px;    
     background-image: url("https://cdn.tigerfacilityservices.com/img/partners_background.jpg");
@@ -47,6 +98,13 @@ body {
     height: 350px; 
     background: url("https://cdn.tigerfacilityservices.com/img/office-plan@2x.png") top no-repeat;
     background-size: cover;
+}
+
+.banner8 {
+    height: 600px; 
+    background-image: url("https://cdn.tigerfacilityservices.com/img/video_bg@2x.jpg");
+    background-size: cover;
+    cursor: pointer;
 }
 
 .half-banner {
