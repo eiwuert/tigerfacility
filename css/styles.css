@@ -146,6 +146,15 @@ h6 {
   NAVIGATION 
 **************/
 
+.fixedElement {
+    background-color: #c0c0c0;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:100;
+    transition: 1s ease-in;
+}
+
 
 .nav-fonts a {
     font-weight: 400!important;
@@ -191,6 +200,13 @@ h6 {
 
 /* MAIN */
 
+.modal {
+    top: 30%;
+}
+.modal-backdrop.fade {
+    opacity: 0.6!important;
+}
+
 .baby-blue {
     background-color: #ebf1fa!important;
 }
@@ -200,6 +216,9 @@ h6 {
 }
 
 .link-card {
+    cursor: pointer;
+}
+.cursor-pointer {
     cursor: pointer;
 }
 
@@ -380,4 +399,37 @@ h6 {
 .bg-image {
     background: url(https://cdn.tigerfacilityservices.com/img/flow_business@2x.png) top no-repeat;
     background-size: contain;
+}
+
+/* ANFRAGE */
+
+.blue-banner {
+    background: #014692;
+    height: 460px;
+    position: relative;
+}
+
+.blue-banner .col-lg-5 {
+    top: 50px;
+}
+
+.blue-banner .col-lg-7 {
+    top: 50px;
+}
+
+::placeholder {
+    color: gray;
+    opacity: 0.7;
+    font-size: 14px;
+}
+:-ms-input-placeholder { 
+    color: gray;
+    opacity: 0.7;
+    font-size: 14px;
+}
+
+::-ms-input-placeholder { 
+    color: gray;
+    opacity: 0.7;
+    font-size: 14px;
 }

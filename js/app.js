@@ -48,5 +48,35 @@ app.config(function($routeProvider,$locationProvider) {
         .when("/oeffentliche-einrichtungen", {
             templateUrl : "pages/oeffentliche-einrichtungen.html"
         })
+        .when("/anfrage", {
+            templateUrl : "pages/anfrage.html"
+        })
     .otherwise({ redirectTo: '/' });
 });
+
+app.controller('customDialogCtrl', function ($scope, $uibModalInstance, $rootScope) {
+    //-- Variables --//
+    $rootScope.$on("CallParentMethod", function () {
+      $uibModalInstance.dismiss('Canceled');
+  
+    });
+  
+    $scope.user = {
+      name: ''
+    };
+  
+    //-- Methods --//
+  
+    $scope.cancel = function () {
+      $uibModalInstance.dismiss('Canceled');
+    }; // end cancel
+  
+    $scope.save = function () {
+      $uibModalInstance.close($scope.user.name);
+    }; // end save
+  
+    $scope.hitEnter = function (evt) {
+      if (angular.equals(evt.keyCode, 13) && !(angular.equals($scope.user.name, null) || angular.equals($scope.user.name, '')))
+        $scope.save();
+    };
+  })

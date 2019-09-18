@@ -1,11 +1,11 @@
 
-<header>
-    <div class="col-12 row px-5 py-4 border-bottom m-0">
+<header ng-controller="mainCtrl">
+    <div id="sticky" class="col-12 row px-5 py-4 border-bottom m-0 bg-white">
         <div class="col-lg-6 col-12">
             <img class="float-left" src="https://cdn.tigerfacilityservices.com/img/tigerfacilityservices-logo-black-trans.svg">
         </div>
         <div class="col-lg-6 col-12">
-            <a href="#" class="btn btn-header shadow-none text-dark float-right font-weight-bold px-4 py-2 text-capitalize">Angebot anfragen</a>
+            <a href ng-click="toTop()" class="btn btn-header shadow-none text-dark float-right font-weight-bold px-4 py-2 text-capitalize">Angebot anfragen</a>
         </div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-white bg-white shadow-none col-11 mx-auto">
