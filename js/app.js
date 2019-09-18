@@ -60,6 +60,9 @@ app.config(function($routeProvider,$locationProvider) {
         .when("/contact-sales", {
             templateUrl : "pages/contact-sales.html"
         })
+        .when("/co-living", {
+            templateUrl : "pages/co-living.html"
+        })
     .otherwise({ redirectTo: '/' });
 });
 
