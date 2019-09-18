@@ -516,3 +516,16 @@ h6 {
     background-size: 14px;
     background-repeat: no-repeat;
 }
+
+.contact-banner {
+    background-color: silver;
+    background-image: url("https://assets.website-files.com/5b2cd3a595f0a02fa2ec893c/5ba24fda37b9fb1f0de9ebc6_pic_building.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 460px;
+    position: relative;
+}
+
+.contact-top {
+    padding-top: 480px;
+}

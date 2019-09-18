@@ -57,6 +57,9 @@ app.config(function($routeProvider,$locationProvider) {
         .when("/co-working", {
             templateUrl : "pages/co-working.html"
         })
+        .when("/contact-sales", {
+            templateUrl : "pages/contact-sales.html"
+        })
     .otherwise({ redirectTo: '/' });
 });
 
