@@ -232,6 +232,9 @@ h6 {
 .font-weight-400 {
     font-weight: 400!important;
 }
+.font-weight-100 {
+    font-weight: 100!important;
+}
 
 /* UBER UNS */
 
@@ -312,4 +315,11 @@ h6 {
 
 .bottom-50 {
     bottom:50px;
+}
+
+/* SO FUNKTIONIERTS */
+
+.bg-image {
+    background: url(https://cdn.tigerfacilityservices.com/img/flow_business@2x.png) top no-repeat;
+    background-size: contain;
 }

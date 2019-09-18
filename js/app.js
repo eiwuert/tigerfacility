@@ -18,5 +18,8 @@ app.config(function($routeProvider,$locationProvider) {
         .when("/preise", {
             templateUrl : "pages/preise.html"
         })
+        .when("/so-funktionierts", {
+            templateUrl : "pages/so-funktionierts.html"
+        })
     .otherwise({ redirectTo: '/' });
 });
