@@ -433,3 +433,18 @@ h6 {
     opacity: 0.7;
     font-size: 14px;
 }
+
+/* E-BOOK */
+
+.book-header{
+    height: 490px;
+    background-color: #eef0f5;
+}
+
+.top-150 {
+    top: 150px;
+}
+
+.book-footer {
+    background-color: #014692;
+}
