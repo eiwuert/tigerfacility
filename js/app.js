@@ -72,6 +72,12 @@ app.config(function($routeProvider,$locationProvider) {
         .when("/multi-step-funnel", {
             templateUrl : "pages/multi-step-funnel.html"
         })
+        .when("/hilfe", {
+            templateUrl : "pages/hilfe.html"
+        })
+        .when("/login", {
+            templateUrl : "pages/login.html"
+        })
     .otherwise({ redirectTo: '/' });
 });
 

@@ -716,3 +716,43 @@ h6 {
     -o-transition: all 0.35s ease 0.15s;
     transition: all 0.35s ease 0.15s;
   }
+
+  /* HILFE */
+
+  .dark-blue{
+    background-color: #014692;
+  }
+
+  .has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+/* LOGIN */
+
+.bg-login {
+    background-image: url("https://cdn.tigerfacilityservices.com/img/Login@2x.jpg");
+    height: 100vh;
+    background-size: cover;
+    padding-top: 10vh;
+}
+
+.g-login {
+    background-color: #4285f4;
+    background-image: url("https://cdn.tigerfacilityservices.com/img/google_signin_logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    color: #fff;
+}
