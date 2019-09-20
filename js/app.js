@@ -63,6 +63,12 @@ app.config(function($routeProvider,$locationProvider) {
         .when("/co-living", {
             templateUrl : "pages/co-living.html"
         })
+        .when("/office-management-as-a-service", {
+            templateUrl : "pages/office-management-as-a-service.html"
+        })
+        .when("/bueroservice", {
+            templateUrl : "pages/bueroservice.html"
+        })
     .otherwise({ redirectTo: '/' });
 });
 

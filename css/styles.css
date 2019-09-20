@@ -107,6 +107,38 @@ body {
     cursor: pointer;
 }
 
+.banner9 { 
+    height: 490px;
+    background-color: #eef0f5;
+    background-image: url("https://assets.website-files.com/5b2cd3a595f0a02fa2ec893c/5c6be5d36d27227e64c9c9a4_bg_admsupport_2.jpg");
+    background-position: 50% 2%;
+    background-size: 1280px;
+    background-repeat: no-repeat;
+}
+
+.banner10 { 
+    background-image: url("https://assets.website-files.com/5b2cd3a595f0a02fa2ec893c/5c1a229a6edb8446c9d0475f_img_admsupport_headerbg.jpg");
+    height: 490px;
+    background-color: #eef0f5;
+    background-position: 50% 2%;
+    background-size: 1280px;
+    background-repeat: no-repeat;
+}
+
+.banner11 { 
+    height: 468px;
+    margin-bottom: -174px;
+    background-image: url("https://assets.website-files.com/5b2cd3a595f0a02fa2ec893c/5c1a2b544195dedea687c4b7_img_admsupport_positionsbg.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.banner12  {
+    padding-top: 48px;
+    padding-left: 48px;
+    background-color: #ebf1fa;
+}
+
 .half-banner {
     background-image: url("https://cdn.tigerfacilityservices.com/img/bg-businesscleaning@2x.jpg");
     background-size: cover;
@@ -528,4 +560,61 @@ h6 {
 
 .contact-top {
     padding-top: 480px;
+}
+
+.letter-space-2 {
+    letter-spacing: 2px;
+}
+
+.cardtext-up {
+    top: -120px;
+}
+
+.parallax {
+    padding-top: 124px;
+    padding-bottom: 124px;
+    background-image: url("https://assets.website-files.com/5b2cd3a595f0a02fa2ec893c/5cf92cc499b2c4a850b19b06_bg_tiger.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+.bubble-div {
+    height: 192px;
+    padding-top: 16px;
+    padding-right: 46px;
+    background-image: url("https://assets.website-files.com/5b2cd3a595f0a02fa2ec893c/5c388af10637d15b498e5043_bg_semibubble.png");
+    background-position: 100% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: right;
+}
+
+.btn-gray-blue {
+    background-color: #ebf1fa;
+    color: #0083c3;
+}
+
+.lighter-blue {
+    background-color: #eefaff;
+}
+
+.bg-quotes2 {
+    padding-top: 24px;
+    padding-left: 72px;
+    background-image: url("https://assets.website-files.com/5b2cd3a595f0a02fa2ec893c/5c1a3205e3b12b0584e77957_ic_quote_white.svg");
+    background-position: 0px 0px;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.w-150 {
+    width: 150%;
+}
+
+.top-70 {
+    top: -70px;
+}
+.top-120 {
+    top: -120px;
 }
