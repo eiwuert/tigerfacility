@@ -69,6 +69,9 @@ app.config(function($routeProvider,$locationProvider) {
         .when("/bueroservice", {
             templateUrl : "pages/bueroservice.html"
         })
+        .when("/multi-step-funnel", {
+            templateUrl : "pages/multi-step-funnel.html"
+        })
     .otherwise({ redirectTo: '/' });
 });
 

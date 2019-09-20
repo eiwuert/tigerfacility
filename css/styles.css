@@ -139,6 +139,14 @@ body {
     background-color: #ebf1fa;
 }
 
+.banner13 {
+    height: 658px;
+    background-image: linear-gradient(180deg, rgba(41, 50, 117, 0.81), rgba(41, 50, 117, 0.81)), url("https://assets.website-files.com/5b2cd3a595f0a02fa2ec893c/5bfea57f94644595ca3375b8_tfs_homepage_bg%402x.jpg");
+    background-position: 0px 0px, 50% 2%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+}
+
 .half-banner {
     background-image: url("https://cdn.tigerfacilityservices.com/img/bg-businesscleaning@2x.jpg");
     background-size: cover;
@@ -618,3 +626,93 @@ h6 {
 .top-120 {
     top: -120px;
 }
+
+.bg-big-blue {
+    background-color: #014692;
+}
+
+
+.accordion a {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 3rem 1rem 1rem;
+    color: #0083c3!important;
+    font-size: 1rem;
+    font-weight: 400;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .accordion a:hover,
+  .accordion a:hover::after {
+    cursor: pointer;
+    color: #03b5d2;
+  }
+  
+  .accordion a:hover::after {
+    border: 1px solid #03b5d2;
+  }
+  
+  .accordion a.active {
+    color: #03b5d2;
+    border-bottom: 1px solid #03b5d2;
+  }
+  
+  .accordion a::after {
+    font-family: 'Ionicons';
+    content: "\f273";
+    position: absolute;
+    float: right;
+    right: 1rem;
+    font-size: 1rem;
+    color: #7288a2;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #7288a2;
+    text-align: center;
+  }
+  
+  .accordion a.active::after {
+    font-family: 'Ionicons';
+    content: "\f368";
+    color: #03b5d2;
+    border: 1px solid #03b5d2;
+  }
+  
+  .accordion .content {
+    opacity: 0;
+    padding: 0 1rem;
+    max-height: 0;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+    clear: both;
+    -webkit-transition: all 0.2s ease 0.15s;
+    -o-transition: all 0.2s ease 0.15s;
+    transition: all 0.2s ease 0.15s;
+  }
+  
+  .accordion .content p {
+    font-size: 0.9rem;
+    font-weight: 300;
+  }
+  
+  .accordion .content.active {
+    opacity: 1;
+    padding: 1rem;
+    max-height: 100%;
+    -webkit-transition: all 0.35s ease 0.15s;
+    -o-transition: all 0.35s ease 0.15s;
+    transition: all 0.35s ease 0.15s;
+  }
