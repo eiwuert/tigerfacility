@@ -787,4 +787,36 @@ h6 {
     .grey-text-dark {
         color: black!important;
     }
+    .h-400 {
+        display: none!important;
+    }
+    .top-10 {
+        top: 0;
+    }
+    .black-it {
+        color: black!important;
+    }
+    .dissapear{
+        display: none!important;
+    }
+    .hoverable {
+        display: none!important;
+    }
+    .mobile-fade {
+        margin: 0!important;
+        opacity: 1!important;
+        transform: scale(0.9)!important;
+    }
+    .cardtext-up {
+        top: 0;
+    }
+    .w-150 {
+        width: 100%;
+    }
+    iframe {
+        width: 100%;
+    }
+    .white-it {
+        color: white!important;
+    }
 }
