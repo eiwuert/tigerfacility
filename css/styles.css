@@ -147,6 +147,100 @@ body {
     background-repeat: repeat, no-repeat;
 }
 
+.banner14 {
+    height: 250px!important;
+    position: relative;
+    background-image: url("https://images.ctfassets.net/tqo8jd3rivfi/KB3VfafeWQmG2YkYAyCis/7805d760852edf17dfdb3627cf4866c7/SEO_Pages_Opener_Hausmeister2.jpg");
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+}
+
+.banner15 {
+    background-image: url("https://images.ctfassets.net/tqo8jd3rivfi/3kZrPVHVyUCCWm2QEeKquc/09864543353aef5b83ec7aea70dcd77a/dojomadness_bg_2x.jpg");
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+}
+
+.banner16 {
+    height: 250px!important;
+    position: relative;
+    background-image: url("https://images.ctfassets.net/tqo8jd3rivfi/3uNr8CH1568EkqeAC4ESAY/8b8f357b9106534c3978570bd6c172cf/SEO_Pages_Opener_Praxis3.jpg");
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+}
+
+.banner17 {
+    height: 250px!important;
+    position: relative;
+    background-image: url("https://images.ctfassets.net/tqo8jd3rivfi/3jeEPpbdkIwUMW8AOeOCcQ/61026cae3e84655516e4f0a4ec4999f1/SEO_Pages_Opener_Gebaeudereinigung2.jpg");
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+}
+
+.banner18 {
+    height: 250px!important;
+    position: relative;
+    background-image: url("https://images.ctfassets.net/tqo8jd3rivfi/5faxbq0f7yoaGcwYa24uWS/daf724a5c992e0108c54ff58708f6752/SEO_Pages_Opener_Buero3.jpg");
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+}
+
+.banner19 {
+    height: 250px!important;
+    position: relative;
+    background-image: url("https://images.ctfassets.net/tqo8jd3rivfi/7kYw44pfTU8owkUk8Yqeqi/b57af9c9ebf35e7d8e5ccb3f0613414a/SEO_Pages_Opener_Buero3.jpg");
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+}
+
+.banner20 {
+    height: 250px!important;
+    position: relative;
+    background-image: url("https://images.ctfassets.net/tqo8jd3rivfi/42k9CD5VqowksomiO6uYWc/7f7e107eaa583a81d2e19c19fa50e70f/SEO_Pages_Opener_Buero2.jpg");
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+}
+
+.banner21 {
+    height: 250px!important;
+    position: relative;
+    background-image: url("https://images.ctfassets.net/tqo8jd3rivfi/5faxbq0f7yoaGcwYa24uWS/daf724a5c992e0108c54ff58708f6752/SEO_Pages_Opener_Buero3.jpg");
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+}
+
+.banner22 {
+    height: 250px!important;
+    position: relative;
+    background-image: url("https://images.ctfassets.net/tqo8jd3rivfi/xqUlBUPpwkIIOG4uEIAQ2/78a9bce0a0f46644e867ab93e8dd82e1/SEO_Pages_Opener_Buero.jpg");
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+}
+
+.banner23 {
+    height: 250px!important;
+    position: relative;
+    background-image: url("https://images.ctfassets.net/tqo8jd3rivfi/42k9CD5VqowksomiO6uYWc/7f7e107eaa583a81d2e19c19fa50e70f/SEO_Pages_Opener_Buero2.jpg");
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+}
+
+.banner24 {
+    height: 250px!important;
+    position: relative;
+    background-image: url("https://images.ctfassets.net/tqo8jd3rivfi/5faxbq0f7yoaGcwYa24uWS/daf724a5c992e0108c54ff58708f6752/SEO_Pages_Opener_Buero3.jpg");
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+}
+
+.banner25 {
+    height: 250px!important;
+    position: relative;
+    background-image: url("https://images.ctfassets.net/tqo8jd3rivfi/5faxbq0f7yoaGcwYa24uWS/daf724a5c992e0108c54ff58708f6752/SEO_Pages_Opener_Buero3.jpg");
+    background-size: cover;
+    background-repeat: repeat, no-repeat;
+}
+
 .half-banner {
     background-image: url("https://cdn.tigerfacilityservices.com/img/bg-businesscleaning@2x.jpg");
     background-size: cover;
@@ -437,7 +531,7 @@ h6 {
 /* SO FUNKTIONIERTS */
 
 .bg-image {
-    background: url(https://cdn.tigerfacilityservices.com/img/flow_business@2x.png) top no-repeat;
+    background: url("https://cdn.tigerfacilityservices.com/img/flow_business@2x.png") top no-repeat;
     background-size: contain;
 }
 
@@ -459,18 +553,18 @@ h6 {
 
 ::placeholder {
     color: gray;
-    opacity: 0.7;
+    opacity: 0.5!important;
     font-size: 14px;
 }
 :-ms-input-placeholder { 
     color: gray;
-    opacity: 0.7;
+    opacity: 0.5!important;
     font-size: 14px;
 }
 
 ::-ms-input-placeholder { 
     color: gray;
-    opacity: 0.7;
+    opacity: 0.5!important;
     font-size: 14px;
 }
 
@@ -819,6 +913,25 @@ h6 {
     .white-it {
         color: white!important;
     }
+
+    .top-300 {
+        top: 0;
+    }
+
+
+    .top-200 {
+        top: 0;
+    }
+
+    .top--100 {
+        top: 0;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1800px) {
+    .cards-width {
+        max-width: 90%!important;
+    }
 }
 
 a {
@@ -827,4 +940,86 @@ a {
 
 a:hover {
     text-decoration: none;
+}
+
+/* FOOTER MENU */
+
+.top-300 {
+    top: -300px;
+}
+
+.blue1 {
+    background-image: linear-gradient(rgba(1, 70, 146, 0.8), rgba(1, 70, 146, 0.8)), url("https://images.ctfassets.net/tqo8jd3rivfi/551Nyh1F2EsGsK0g2csqmi/d33c33d7bf2f14be272b19f450cba74f/topvisual_quality_business_3x_crcl_2000px.jpg");
+}
+.blue2 {
+    background-image: linear-gradient(rgba(1, 70, 146, 0.8), rgba(1, 70, 146, 0.8)), url("https://images.ctfassets.net/tqo8jd3rivfi/QvOxESEGacauUQsYKM2GY/a771455c963293c53bad6e51d1d939a7/SEO_Pages_Gebaeude.jpg");
+}
+
+
+.top-200 {
+    top: -200px;
+}
+
+.top--100 {
+    top: -100px;
+}
+
+/* START */
+
+.bg-fruits {
+    display: block;
+    overflow: visible;
+    height: 466px;
+    margin-bottom: 8px;
+    background-image: url("https://assets.website-files.com/5b2cd3a595f0a02fa2ec893c/5b48b0ef60c9f414837bb26a_bg_fruits.jpeg");
+    background-position: 17% 50%;
+    background-size: cover;
+    opacity: 1;
+}
+
+.neusectioncard {
+    display: block;
+    width: 700px;
+    margin-bottom: 0px;
+    padding: 48px 48px 24px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 1px 15px 37px 0 rgba(0, 0, 0, 0.23);
+}
+
+.bg-runtime {
+    display: block;
+    overflow: visible;
+    height: 466px;
+    margin-bottom: 8px;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    background-color: #ebf1fa;
+    background-image: url("https://assets.website-files.com/5b2cd3a595f0a02fa2ec893c/5b5996ca2a1de3cdb185693b_1.png");
+    background-position: 100% 50%;
+    background-size: 372px;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.bg-fenster {
+    display: block;
+    overflow: visible;
+    height: 466px;
+    margin-bottom: 8px;
+    background-image: url("https://assets.website-files.com/5b2cd3a595f0a02fa2ec893c/5b3b67876d6a491285d7cd6f_bg_fensterreinigung%402x.jpg");
+    background-position: 17% 50%;
+    background-size: cover;
+    opacity: 1;
+}
+
+.bg-meister {
+    display: block;
+    overflow: visible;
+    height: 466px;
+    margin-bottom: 8px;
+    background-image: url("https://assets.website-files.com/5b2cd3a595f0a02fa2ec893c/5b3b67fa6d6a49b769d7ce03_bg_hausmeister%402x.jpg");
+    background-position: 17% 50%;
+    background-size: cover;
+    opacity: 1;
 }

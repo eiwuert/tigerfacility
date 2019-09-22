@@ -78,6 +78,39 @@ app.config(function($routeProvider,$locationProvider) {
         .when("/login", {
             templateUrl : "pages/login.html"
         })
+        .when("/hausmeisterservice", {
+            templateUrl : "pages/hausmeisterservice.html"
+        })
+        .when("/praxisreinigung", {
+            templateUrl : "pages/praxisreinigung.html"
+        })
+        .when("/gebaeudereinigung", {
+            templateUrl : "pages/gebaeudereinigung.html"
+        })
+        .when("/bueroreinigung", {
+            templateUrl : "pages/bueroreinigung.html"
+        })
+        .when("/berlin", {
+            templateUrl : "pages/berlin.html"
+        })
+        .when("/muenchen", {
+            templateUrl : "pages/muenchen.html"
+        })
+        .when("/duesseldorf", {
+            templateUrl : "pages/duesseldorf.html"
+        })
+        .when("/frankfurt", {
+            templateUrl : "pages/frankfurt.html"
+        })
+        .when("/stuttgart", {
+            templateUrl : "pages/stuttgart.html"
+        })
+        .when("/koeln", {
+            templateUrl : "pages/koeln.html"
+        })
+        .when("/start", {
+            templateUrl : "pages/start.html"
+        })
     .otherwise({ redirectTo: '/' });
 });
 
