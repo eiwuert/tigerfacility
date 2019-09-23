@@ -1023,3 +1023,14 @@ a:hover {
     background-size: cover;
     opacity: 1;
 }
+
+.form-width {
+    max-width: 27rem!important;
+}
+
+.margin-250 {
+    margin-bottom: 250px!important;
+}
+.margin-150 {
+    margin-bottom: 150px!important;
+}
