@@ -926,6 +926,11 @@ h6 {
     .top--100 {
         top: 0;
     }
+
+    .height-400 {
+        min-height:500px!important;
+    }
+    
 }
 
 @media (min-width: 1024px) and (max-width: 1800px) {
@@ -1033,4 +1038,51 @@ a:hover {
 }
 .margin-150 {
     margin-bottom: 150px!important;
+}
+
+/* PARTNER */
+
+.bg-girl {
+    width: 50%;
+    background-color: #ebf1fa;
+    background-image: url("https://assets.website-files.com/5b2cd3a595f0a02fa2ec893c/5b361973797d573559b8c1de_tfs_powerlifting_girl%402x.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+}
+
+.bg-graph {
+    position: relative;
+    padding-top:50px;
+    background-image: url("https://assets.website-files.com/5b2cd3a595f0a02fa2ec893c/5b360d7a79b4f4d50c651dd5_laptopbg%402x.png");
+    background-position: 0px 138px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.w-125 {
+    width:125%!important;
+}
+
+.bg-card-light {
+    background-color: #F2F6F9;
+}
+
+.height-400 {
+    max-height:400px;
+}
+
+.second-img {
+    top: -70px;
+    left: 170px;
+}
+.first-img {
+    top: 20px;
+}
+.third-img {
+    bottom: 180px;
+    left: 50px;
+}
+.left-60 {
+    left:60px;
 }

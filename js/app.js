@@ -114,6 +114,12 @@ app.config(function($routeProvider,$locationProvider) {
         .when("/hamburg", {
             templateUrl : "pages/hamburg.html"
         })
+        .when("/registrieren", {
+            templateUrl : "pages/registrieren.html"
+        })
+        .when("/partner", {
+            templateUrl : "pages/partner.html"
+        })
     .otherwise({ redirectTo: '/' });
 });
 
